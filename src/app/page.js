@@ -65,10 +65,12 @@ function Updates() {
         StringBay1 = "Vacant";
         console.log(StringBay1);
         document.getElementById("p1").innerHTML = StringBay1;
+        document.getElementById("p1").style.backgroundColor = "green";
       } else {
         StringBay1 = "Occupied";
         console.log(StringBay1);
         document.getElementById("p1").innerHTML = StringBay1;
+        document.getElementById("p1").style.backgroundColor = "red";
       }
     }
   });
@@ -81,10 +83,12 @@ function Updates() {
         StringBay2 = "Vacant";
         console.log(StringBay2);
         document.getElementById("p2").innerHTML = StringBay2;
+        document.getElementById("p2").style.backgroundColor = "green";
       } else {
         StringBay2 = "Occupied";
         console.log(StringBay2);
         document.getElementById("p2").innerHTML = StringBay2;
+        document.getElementById("p2").style.backgroundColor = "red";
       }
     }
   });
@@ -97,10 +101,12 @@ function Updates() {
         StringBay3 = "Vacant";
         console.log(StringBay3);
         document.getElementById("p3").innerHTML = StringBay3;
+        document.getElementById("p3").style.backgroundColor = "green";
       } else {
         StringBay3 = "Occupied";
         console.log(StringBay3);
         document.getElementById("p3").innerHTML = StringBay3;
+        document.getElementById("p3").style.backgroundColor = "red";
       }
     }
   });
@@ -113,10 +119,12 @@ function Updates() {
         StringBay4 = "Vacant";
         console.log(StringBay4);
         document.getElementById("p4").innerHTML = StringBay4;
+        document.getElementById("p4").style.backgroundColor = "green";
       } else {
         StringBay4 = "Occupied";
         console.log(StringBay4);
         document.getElementById("p4").innerHTML = StringBay4;
+        document.getElementById("p4").style.backgroundColor = "red";
       }
     }
   });
@@ -129,10 +137,12 @@ function Updates() {
         StringBay5 = "Vacant";
         console.log(StringBay5);
         document.getElementById("p5").innerHTML = StringBay5;
+        document.getElementById("p5").style.backgroundColor = "green";
       } else {
         StringBay5 = "Occupied";
         console.log(StringBay5);
         document.getElementById("p5").innerHTML = StringBay5;
+        document.getElementById("p5").style.backgroundColor = "red";
       }
     }
   });
